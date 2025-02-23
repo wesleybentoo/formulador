@@ -1,0 +1,372 @@
+/* Estilo Global */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+
+/* Cabeçalho */
+.header {
+    display: flex;
+    justify-content: space-between; /* Um item em cada canto */
+    align-items: center; /* Alinha verticalmente ao centro */
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo branco com leve transparência */
+    border-radius: 10px; /* Bordas arredondadas */
+    padding: 10px 20px; /* Espaçamento interno */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    width: 100%; /* Ocupa a largura total */
+    max-width: 1200px; /* Limita o tamanho em telas grandes */
+    margin: 10px auto; /* Centraliza horizontalmente */
+}
+
+/* Título */
+.header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Botão Voltar */
+.header .button {
+    background-color: #333;
+    color: #fff;
+    padding: 8px 15px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.header .button:hover {
+    background-color: #555;
+}
+
+/* Container Principal */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza os cards no eixo horizontal */
+    gap: 20px;
+}
+
+/* Cards */
+.card {
+    width: 100%; /* Ocupa toda a largura disponível do contêiner */
+    max-width: 800px; /* Limita a largura máxima dos cards */
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Espaçamento interno entre os elementos do card */
+}
+
+/* Cabeçalho do Card */
+.card-header {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+    border-bottom: 2px solid #eeeeee;
+    padding-bottom: 10px;
+}
+
+/* Card 1 - Input do Formulado */
+.input-card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center; /* Centraliza os itens dentro do card */
+}
+
+.input-card input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    max-width: 300px; /* Limita a largura do campo de entrada */
+}
+
+/* Card 2 - Matérias-Primas */
+.materias-primas-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza a tabela */
+    gap: 15px;
+}
+
+.table-container {
+    width: 100%;
+    max-width: 800px; /* Limita a largura da tabela */
+    overflow-x: auto;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.table-header {
+    background-color: #f0f4f8;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+    text-align: left;
+    padding: 10px;
+}
+
+.table td, .table th {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.table tr:hover {
+    background-color: #f9f9f9;
+}
+
+/* Botões de Seleção */
+.button-container {
+    display: flex;
+    justify-content: center; /* Centraliza os botões */
+    gap: 10px;
+    margin-top: 10px;
+}
+
+/* Estilo Geral para Botões */
+.action-button {
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 25px; /* Botões arredondados */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Botão: Selecionar Tudo (Padrão Azul) */
+.action-button.select-all {
+    background-color: #007bff; /* Azul */
+}
+
+.action-button.select-all:hover {
+    background-color: #0056b3;
+}
+
+/* Botão: Selecionar Matéria-Prima (Verde) */
+.action-button.select-nutrientes {
+    background-color: #28a745; /* Verde */
+}
+
+.action-button.select-nutrientes:hover {
+    background-color: #1e7e34;
+}
+
+/* Botão: Selecionar Enchimentos (Cinza Escuro) */
+.action-button.select-fillers {
+    background-color: #6c757d; /* Cinza Escuro */
+}
+
+.action-button.select-fillers:hover {
+    background-color: #5a6268;
+}
+
+/* Botão: Remover Tudo (Vermelho) */
+.action-button.remove-all {
+    background-color: #dc3545; /* Vermelho */
+}
+
+.action-button.remove-all:hover {
+    background-color: #a71d2a;
+}
+
+/* Animação ao Clicar */
+.action-button:active {
+    transform: scale(0.95); /* Leve redução ao pressionar */
+}
+
+
+/* Card 3 - Previsão e Erros */
+.previsao-card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center; /* Centraliza o conteúdo */
+    text-align: center;
+}
+
+.previsao-container {
+    font-size: 1.2rem;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.error-container {
+    margin-top: 10px;
+    color: #dc3545;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.error-message {
+    margin: 5px 0;
+    padding: 5px;
+    border: 1px solid #dc3545;
+    background-color: #f8d7da;
+    border-radius: 5px;
+}
+
+/* Lista de Cards de Resultados */
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center; /* Centraliza os cards de resultado */
+}
+
+.result-card {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.result-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.result-card h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.result-card p {
+    font-size: 1rem;
+    color: #666;
+    margin: 5px 0;
+}
+
+.result-card ul {
+    padding: 0;
+    list-style: none;
+    margin: 10px 0;
+}
+
+.result-card ul li {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .cards-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Resultados */
+.results-header {
+    text-align: center;
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.results-header h3 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.results-header p {
+    font-size: 1rem;
+    color: #555;
+    margin: 5px 0;
+}
+
+/* Estilo dos cards de resultado */
+.result-card {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.result-card h3 {
+    font-size: 1.2rem;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.result-card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.result-card ul li {
+    background: #eef;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+.li-enchimento {
+    background-color: #ffe6e6 !important;
+}
+
+.validation-message {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #dc3545;
+    margin-top: 10px;
+}
+
+/* Botão: Selecionar Tudo (Padrão Azul) */
+.action-button.calculate-button {
+    background-color: #519881; /* Azul */
+    width: 100% !important;
+    margin-top: 10px !important;
+}
+
+.action-button.calculate-button {
+    background-color: #2b5a46;
+}
+
+.margin-top {
+    margin-top: 10px !important;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="/static/script.js">
+</head>
+<body>
+    <header>
+        <h1>{{ title }}</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="/nutrientes">Nutrientes</a></li>
+            <li><a href="/formulador1">Formulador 1</a></li>
+            <li><a href="/formulador2">Formulador 2</a></li>
+            <li><a href="/formulador3">Formulador 3</a></li>
+            <li><a href="/formulador4">Formulador 4</a></li>
+        </ul>
+    </nav>
+    <main>
+        {% block content %}
+        {{ content|safe }}
+        {% endblock %}
+    </main>
+</body>
+</html>

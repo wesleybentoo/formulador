@@ -1,0 +1,198 @@
+{
+  "data": [
+    {
+      "name": "Amônia Anidra",
+      "limited": [],
+      "incompatible": []
+    },
+    {
+      "name": "Calcário Granulado",
+      "limited": ["Sulfato de Potássio e Magnésio", "Sulfato de Potássio", "Nitrocálcio"],
+      "incompatible": [
+        "Termofosfato",
+        "Escória de Thomas",
+        "Fosfato Diamônico (DAP)",
+        "Fosfato Monoamônico (MAP)",
+        "Superfosfato Triplo",
+        "Superfosfato Simples",
+        "Fosfatos Naturais",
+        "Farinha de Ossos",
+        "Uréia",
+        "Sulfato de Amônio",
+        "Nitrato de Amônio",
+        "Adubos Orgânicos"
+      ]
+    },
+    {
+      "name": "Carbonato de Cálcio",
+      "limited": [],
+      "incompatible": []
+    },
+    {
+      "name": "Carbonato de Magnésio",
+      "limited": [],
+      "incompatible": []
+    },
+    {
+      "name": "Cloreto de Potássio",
+      "limited": ["Termofosfato", "Escória de Thomas"],
+      "incompatible": []
+    },
+    {
+      "name": "Escória de Thomas",
+      "limited": ["Nitrocálcio"],
+      "incompatible": [
+        "Fosfato Diamônico (DAP)",
+        "Fosfato Monoamônico (MAP)",
+        "Superfosfato Triplo",
+        "Superfosfato Simples",
+        "Fosfatos Naturais",
+        "Farinha de Ossos",
+        "Uréia",
+        "Sulfato de Amônio",
+        "Nitrato de Amônio",
+        "Adubos Orgânicos"
+      ]
+    },
+    {
+      "name": "Esterco de Curral",
+      "limited": [],
+      "incompatible": []
+    },
+    {
+      "name": "Farinha de Ossos",
+      "limited": [],
+      "incompatible": []
+    },
+    {
+      "name": "Fosfato Bicálcico",
+      "limited": [],
+      "incompatible": []
+    },
+    {
+      "name": "Fosfato Diamônico (DAP)",
+      "limited": ["Superfosfato Triplo", "Superfosfato Simples"],
+      "incompatible": []
+    },
+    {
+      "name": "Fosfato Monoamônico (MAP)",
+      "limited": [],
+      "incompatible": []
+    },
+    {
+      "name": "Granilhas",
+      "limited": [],
+      "incompatible": []
+    },
+    {
+      "name": "Hiperfosfato",
+      "limited": [],
+      "incompatible": []
+    },
+    {
+      "name": "Nitrato de Amônio",
+      "limited": [],
+      "incompatible": []
+    },
+    {
+      "name": "Nitrato de Cálcio",
+      "limited": [],
+      "incompatible": []
+    },
+    {
+      "name": "Nitrato de Potássio",
+      "limited": [],
+      "incompatible": []
+    },
+    {
+      "name": "Nitrocalcio",
+      "limited": [],
+      "incompatible": []
+    },
+    {
+      "name": "Nitrofosfato",
+      "limited": [],
+      "incompatible": []
+    },
+    {
+      "name": "Olinda",
+      "limited": [],
+      "incompatible": []
+    },
+    {
+      "name": "Salitre do Chile",
+      "limited": [],
+      "incompatible": []
+    },
+    {
+      "name": "Salitre Potássico",
+      "limited": [],
+      "incompatible": []
+    },
+    {
+      "name": "Solução Amoniacal",
+      "limited": [],
+      "incompatible": []
+    },
+    {
+      "name": "Soluções Nitrogenadas",
+      "limited": [],
+      "incompatible": []
+    },
+    {
+      "name": "Sulfato de Amônio",
+      "limited": [],
+      "incompatible": ["Cloreto de Potássio", "Termofosfato"]
+    },
+    {
+      "name": "Sulfato de K e Mg",
+      "limited": [],
+      "incompatible": []
+    },
+    {
+      "name": "Sulfato de Potássio",
+      "limited": ["Cloreto de Potássio", "Termofosfato"],
+      "incompatible": []
+    },
+    {
+      "name": "Sulfonitrato de Amônio",
+      "limited": [],
+      "incompatible": []
+    },
+    {
+      "name": "Superfosfato Simples",
+      "limited": ["Farinha de Ossos"],
+      "incompatible": []
+    },
+    {
+      "name": "Superfosfato Triplo",
+      "limited": ["Farinha de Ossos"],
+      "incompatible": []
+    },
+    {
+      "name": "Termofosfato",
+      "limited": ["Nitrocálcio"],
+      "incompatible": [
+        "Escória de Thomas",
+        "Fosfato Diamônico (DAP)",
+        "Fosfato Monoamônico (MAP)",
+        "Superfosfato Triplo",
+        "Superfosfato Simples",
+        "Fosfatos Naturais",
+        "Farinha de Ossos",
+        "Uréia",
+        "Sulfato de Amônio",
+        "Nitrato de Amônio",
+        "Adubos Orgânicos"
+      ]
+    },
+    {
+      "name": "Ureia",
+      "limited": [],
+      "incompatible": [
+        "Sulfato de Amônio",
+        "Nitrato de Amônio"
+      ]
+    }
+  ]
+}

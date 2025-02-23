@@ -1,0 +1,265 @@
+{
+  "data": [
+    {
+      "name": "Amônia Anidra",
+      "isNutrient": true,
+      "isOrganic": false,
+      "nutrient": [{ "name": "N", "percent": 82 }]
+    },
+    {
+      "name": "Calcário Granulado",
+      "isNutrient": false,
+      "isOrganic": false,
+      "nutrient": [
+        { "name": "CaCO₃", "percent": 59.8 },
+        { "name": "MgCO₃", "percent": 39.7 }
+      ]
+    },
+    {
+      "name": "Carbonato de Cálcio",
+      "isNutrient": false,
+      "isOrganic": false,
+      "nutrient": [
+        { "name": "CaO", "percent": 56 },
+        { "name": "ECaCO₃", "percent": 100 }
+      ]
+    },
+    {
+      "name": "Carbonato de Magnésio",
+      "isNutrient": false,
+      "isOrganic": false,
+      "nutrient": [
+        { "name": "MgO", "percent": 48 },
+        { "name": "ECaCO₃", "percent": 119 }
+      ]
+    },
+    {
+      "name": "Cloreto de Potássio",
+      "isNutrient": true,
+      "isOrganic": false,
+      "nutrient": [
+        { "name": "K₂O", "percent": 61 },
+        { "name": "Cl", "percent": 47 }
+      ]
+    },
+    {
+      "name": "Escória de Thomas",
+      "isNutrient": true,
+      "isOrganic": false,
+      "nutrient": [
+        { "name": "P₂O₅", "percent": 19 },
+        { "name": "CaO", "percent": 25 }
+      ]
+    },
+    {
+      "name": "Esterco de Curral",
+      "isNutrient": true,
+      "isOrganic": true,
+      "nutrient": [
+        { "name": "N", "percent": 1 },
+        { "name": "P₂O₅", "percent": 1.5 },
+        { "name": "K₂O", "percent": 1 }
+      ]
+    },
+    {
+      "name": "Farinha de Ossos",
+      "isNutrient": true,
+      "isOrganic": true,
+      "nutrient": [
+        { "name": "P₂O₅", "percent": 30 },
+        { "name": "CaO", "percent": 36 }
+      ]
+    },
+    {
+      "name": "Fosfato Bicálcico",
+      "isNutrient": true,
+      "isOrganic": false,
+      "nutrient": [
+        { "name": "P₂O₅", "percent": 40 },
+        { "name": "CaO", "percent": 30 }
+      ]
+    },
+    {
+      "name": "Fosfato Diamônico (DAP)",
+      "isNutrient": true,
+      "isOrganic": false,
+      "nutrient": [
+        { "name": "P₂O₅", "percent": 45 },
+        { "name": "N", "percent": 18 }
+      ]
+    },
+    {
+      "name": "Fosfato Monoamônico (MAP)",
+      "isNutrient": true,
+      "isOrganic": false,
+      "nutrient": [
+        { "name": "P₂O₅", "percent": 52 },
+        { "name": "N", "percent": 10 },
+        { "name": "S", "percent": 1 }
+      ]
+    },
+    {
+      "name": "Granilhas",
+      "isNutrient": false,
+      "nutrient": []
+    },
+    {
+      "name": "Hiperfosfato",
+      "isNutrient": true,
+      "isOrganic": false,
+      "nutrient": [
+        { "name": "P₂O₅", "percent": 27 },
+        { "name": "CaO", "percent": 40 }
+      ]
+    },
+    {
+      "name": "Nitrato de Amônio",
+      "isNutrient": true,
+      "isOrganic": false,
+      "nutrient": [{ "name": "N", "percent": 32 }]
+    },
+    {
+      "name": "Nitrato de Cálcio",
+      "isNutrient": true,
+      "isOrganic": false,
+      "nutrient": [
+        { "name": "N", "percent": 14 },
+        { "name": "CaO", "percent": 18 }
+      ]
+    },
+    {
+      "name": "Nitrato de Potássio",
+      "isNutrient": true,
+      "isOrganic": false,
+      "nutrient": [
+        { "name": "K₂O", "percent": 44 },
+        { "name": "N", "percent": 13 }
+      ]
+    },
+    {
+      "name": "Nitrocalcio",
+      "isNutrient": true,
+      "isOrganic": false,
+      "nutrient": [{ "name": "N", "percent": 27 }]
+    },
+    {
+      "name": "Nitrofosfato",
+      "isNutrient": true,
+      "isOrganic": false,
+      "nutrient": [
+        { "name": "P₂O₅", "percent": 20 },
+        { "name": "N", "percent": 18 },
+        { "name": "CaO", "percent": 12 }
+      ]
+    },
+    {
+      "name": "Olinda",
+      "isNutrient": true,
+      "isOrganic": false,
+      "nutrient": [
+        { "name": "P₂O₅", "percent": 26 },
+        { "name": "CaO", "percent": 43 }
+      ]
+    },
+    {
+      "name": "Salitre do Chile",
+      "isNutrient": true,
+      "isOrganic": false,
+      "nutrient": [{ "name": "N", "percent": 16 }]
+    },
+    {
+      "name": "Salitre Potássico",
+      "isNutrient": true,
+      "isOrganic": false,
+      "nutrient": [
+        { "name": "K₂O", "percent": 14 },
+        { "name": "N", "percent": 15 }
+      ]
+    },
+    {
+      "name": "Solução Amoniacal",
+      "isNutrient": true,
+      "isOrganic": false,
+      "nutrient": [{ "name": "N", "percent": 20 }]
+    },
+    {
+      "name": "Soluções Nitrogenadas",
+      "isNutrient": true,
+      "isOrganic": false,
+      "nutrient": [{ "name": "N", "percent": 35 }]
+    },
+    {
+      "name": "Sulfato de Amônio",
+      "isNutrient": true,
+      "isOrganic": false,
+      "nutrient": [
+        { "name": "N", "percent": 20 },
+        { "name": "S", "percent": 23 }
+      ]
+    },
+    {
+      "name": "Sulfato de K e Mg",
+      "isNutrient": true,
+      "isOrganic": false,
+      "nutrient": [
+        { "name": "K₂O", "percent": 22 },
+        { "name": "MgO", "percent": 18 },
+        { "name": "S", "percent": 22 }
+      ]
+    },
+    {
+      "name": "Sulfato de Potássio",
+      "isNutrient": true,
+      "isOrganic": false,
+      "nutrient": [
+        { "name": "K₂O", "percent": 50 },
+        { "name": "S", "percent": 18 }
+      ]
+    },
+    {
+      "name": "Sulfonitrato de Amônio",
+      "isNutrient": true,
+      "isOrganic": false,
+      "nutrient": [
+        { "name": "N", "percent": 26 },
+        { "name": "S", "percent": 15 }
+      ]
+    },
+    {
+      "name": "Superfosfato Simples",
+      "isNutrient": true,
+      "isOrganic": false,
+      "nutrient": [
+        { "name": "P₂O₅", "percent": 21 },
+        { "name": "CaO", "percent": 26 },
+        { "name": "S", "percent": 12 }
+      ]
+    },
+    {
+      "name": "Superfosfato Triplo",
+      "isNutrient": true,
+      "isOrganic": false,
+      "nutrient": [
+        { "name": "P₂O₅", "percent": 45 },
+        { "name": "CaO", "percent": 15 },
+        { "name": "S", "percent": 1.5 }
+      ]
+    },
+    {
+      "name": "Termofosfato",
+      "isNutrient": true,
+      "isOrganic": false,
+      "nutrient": [
+        { "name": "P₂O₅", "percent": 17 },
+        { "name": "CaO", "percent": 24 },
+        { "name": "MgO", "percent": 7 }
+      ]
+    },
+    {
+      "name": "Ureia",
+      "isNutrient": true,
+      "isOrganic": false,
+      "nutrient": [{ "name": "N", "percent": 44 }]
+    }
+  ]
+}

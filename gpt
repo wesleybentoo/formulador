@@ -1,0 +1,80 @@
+# Comando para prosseguir
+Resumo do Projeto:
+Estamos desenvolvendo uma aplicação de estudo de caso de agronomia, cujo objetivo é criar um **formulador de fertilizantes** utilizando Python e FastHTML. O sistema permitirá calcular e sugerir proporções de nutrientes com base em uma fórmula desejada, levando em conta diferentes contextos e restrições. A aplicação será utilizada como um exemplo prático de lógica aplicada na área de agronomia.
+
+### Objetivo do Projeto:
+Criar uma aplicação simples, porém funcional, que:
+1. Permita o cálculo de proporções de nutrientes (N, P₂O₅, K₂O) para atingir uma fórmula desejada.
+2. Ofereça diferentes abordagens (contextos) para análise, como incluir/excluir determinados nutrientes ou ajustar combinações.
+3. Seja acessível e fácil de entender, servindo como base para estudos de caso na área de agronomia.
+
+---
+
+## Estrutura do Projeto (fastHTML - python):
+formulador/
+├── app.py                 # Arquivo principal para rodar o servidor.
+├── templates/             # Diretório para arquivos HTML dinâmicos.
+│   ├── index.html         # Página inicial com formulário para entrada de dados.
+│   ├── results.html       # Página para exibir resultados.
+├── static/                # Diretório para arquivos estáticos (CSS, JS, etc.).
+│   ├── style.css          # Estilos personalizados para a aplicação.
+│   ├── script.js          # Lógica de interatividade no front-end.
+│   ├── logica_formulacao_1.py  # Implementação da lógica do Contexto 1.
+│   ├── logica_formulacao_2.py  # Implementação da lógica do Contexto 2.
+│   ├── logica_formulacao_3.py  # Implementação da lógica do Contexto 3.
+├── data/                  # Diretório para arquivos de dados.
+│   ├── materias_primas.json  # Contém os teores de nutrientes das matérias-primas.
+├── README.md              # Documentação detalhada do projeto.
+
+---
+
+## Contextos Definidos para o Programa:
+1. **Contexto 1 - Fórmula com Teores Conhecidos:**
+   - Entrada: Fórmula desejada (ex.: `4-14-8`) e escolha de nutrientes disponíveis e seus teores (ex.: ureia, MAP, KCl).
+   - Operação: Calcular proporções de cada nutriente para atingir a fórmula desejada.
+   - Saída: Valores em porcentagem (%) de cada matéria-prima e a quantidade de enchimento necessária.
+
+2. **Contexto 2 - Fórmula com Teores Indeterminados:**
+   - Entrada: Fórmula desejada (ex.: `4-14-8`) e escolha de nutrientes disponíveis (sem os teores informados).
+   - Operação: Calcular todas as combinações possíveis de teores que atendam à fórmula desejada.
+   - Saída: Lista de combinações de proporções que satisfazem a fórmula.
+
+3. **Contexto 3 - Fórmula com Restrições de Nutrientes:**
+   - Entrada: Fórmula desejada (ex.: `4-14-8`) e escolha de nutrientes a serem excluídos (ex.: "não usar MAP").
+   - Operação: Calcular proporções possíveis utilizando apenas os nutrientes restantes.
+   - Saída: Lista de proporções possíveis com base nas restrições.
+
+---
+
+## Progresso Atual:
+1. **Estruturação do Projeto:**
+   - Configuramos as pastas principais: `templates/`, `static/`, `data/` e os arquivos Python (`app.py`, `logica_formulacao_*.py`).
+
+2. **Configuração do Ambiente:**
+   - Criamos o ambiente virtual (`.venv`) e instalamos o **FastHTML** com sucesso.
+   - Resolvidos problemas com o interpretador Python no macOS.
+
+3. **Início da Aplicação:**
+   - Servidor básico configurado utilizando o **FastHTML**.
+   - Templates dinâmicos prontos para receber lógicas de cálculo e exibir resultados.
+
+---
+
+## Próximos Passos:
+1. **Implementar as Lógicas de Cálculo (logica_formulacao_*.py):**
+   - Priorizar o desenvolvimento de um dos contextos (escolher entre Contexto 1, 2 ou 3).
+   - Validar os cálculos para cada cenário.
+
+2. **Criar os Templates HTML:**
+   - **`index.html`**: Formulário para entrada da fórmula e escolha dos nutrientes.
+   - **`results.html`**: Exibição dinâmica dos resultados.
+
+3. **Validação e Integração:**
+   - Garantir que os dados do arquivo JSON (`materias_primas.json`) sejam carregados corretamente.
+   - Validar entradas do usuário (ex.: valores numéricos positivos).
+
+4. **Testes e Documentação:**
+   - Criar casos de teste para validar a funcionalidade dos contextos.
+   - Atualizar o arquivo `README.md` com instruções claras para instalar e rodar o projeto.
+
+---
